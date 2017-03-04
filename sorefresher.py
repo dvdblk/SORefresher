@@ -11,7 +11,7 @@ def login():
     g.go(url)
 
     post_data = g.form_fields()
-    post_data.update ({
+    post_data.update({
         "email": config.EMAIL,
         "password": config.PASSWORD,
     })
